@@ -1,0 +1,43 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fb6f92;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #000814;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #fed9b7;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #8fa9ff;
+}
+
+nav ul ul li {
+    display: block;
+}
+
+nav ul ul li a {
+    padding: 10px 30px;
+}
+
+nav ul ul li:hover {
+    background-color: #fed9b7;
+}
